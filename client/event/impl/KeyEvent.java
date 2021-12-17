@@ -1,0 +1,20 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package client.event.impl;
+
+import client.event.Event;
+
+public class KeyEvent extends Event
+{
+    private final /* synthetic */ int key;
+    
+    public int getKey() {
+        return this.key;
+    }
+    
+    public KeyEvent(final int llllllllllllIllllIllIlIIIIIlllII) {
+        this.key = llllllllllllIllllIllIlIIIIIlllII;
+    }
+}
